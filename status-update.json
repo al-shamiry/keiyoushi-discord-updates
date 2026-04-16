@@ -1,23 +1,27 @@
-[
-  {
-    "id": 1,
-    "title": "MangaKatana",
-    "created": "2025-08-22T17:29:00Z",
-    "updated": "2025-08-22T17:29:00Z",
-    "content": "## MangaKatana\n### **`IllegalStateException`** / **`This image could not be loaded`** error on some chapter pages:\n* The source's Server 1 has issues/is broken, do the following:\n  1. Go to your app's Browse page > Extensions tab > MangaKatana settings\n  2. Change the Server Preference to `Server 2`\n  3. Afterwards, tap \"**Clear chapter cache**\" in your app's Settings > Data and storage, check if it loads now"
-  },
-  {
-    "id": 2,
-    "title": "Mangakakalot, Manganato, Mangabat",
-    "created": "2025-09-22T12:18:00Z",
-    "updated": "2026-02-13T16:34:00Z",
-    "content": "## Mangakakalot, Manganato, Mangabat\n-# `Last edited: 02/13/2026`\n### 1. **`Failed to bypass Cloudflare`**?\n* Pass Cloudflare verification in WebView, use the command **`!ua`** in <#1193504423964586025> if the verification loops.\n* Or change the mirror URL in the extension's settings (your app's Browse Page > Extensions tab > Mangakakalot > Language settings) to see if that helps.\n### 2. **`All CDN attempts failed`**, **`The image could not be loaded`**, and/or downloads are stuck (ex. 16/31) / won't finish (ex. 31/31)?\n* The source frequently has missing images on their site, __wait for the source to fix their hosting site/servers__, **this is not an extension-related issue**.\n### 3. Chapter page is split into separate pages/cut off?\n* That's just how the source cuts them, __not an extension-related issue__.\n* Read in long-strip mode or migrate to a different source.\n### 4. **`HTTP 429`** error?\n* The source has changed their API rate-limit, so update, download, and read less to avoid this error.\n* Try changing the mirror URL in the extension's settings to see if it helps."
-  },
-  {
-    "id": 3,
-    "title": "Invalid repo URL error",
-    "created": "2025-11-24T09:17:00Z",
-    "updated": "2026-02-16T03:34:00Z",
-    "content": "## **`Invalid repo URL`** error\n-# `Last edited: 02/16/2026`\n1. Remove the current repo URL from your app & use the alternative repo URL instead:\n> ### * https://cdn.jsdelivr.net/gh/keiyoushi/extensions@repo/index.min.json\n  * (**`URL do repositório inválido`**) This is especially for users in **South America** since [GitHub randomly blocks South America (**again**)](<https://github.com/orgs/community/discussions/177971>) from accessing raw GitHub URLs.\n2. Otherwise, switch networks or use a VPN."
-  }
-]
+{
+    "title": "Status Updates",
+    "description": "Status updates for extensions in our repo, such as errors, issues, and fixes. If you have any issues with an extension, check here first to see if it's a known issue or if there's a fix.",
+    "messages": [
+        {
+            "id": 1,
+            "title": "MangaKatana",
+            "created": "2025-08-22T17:29:00Z",
+            "updated": "2025-08-22T17:29:00Z",
+            "content": "## MangaKatana\n### **`IllegalStateException`** / **`This image could not be loaded`** error on some chapter pages:\n* The source's Server 1 has issues/is broken, do the following:\n  1. Go to your app's Browse page > Extensions tab > MangaKatana settings\n  2. Change the Server Preference to `Server 2`\n  3. Afterwards, tap \"**Clear chapter cache**\" in your app's Settings > Data and storage, check if it loads now"
+        },
+        {
+            "id": 2,
+            "title": "Mangakakalot, Manganato, Mangabat",
+            "created": "2025-09-22T12:18:00Z",
+            "updated": "2026-02-13T16:34:00Z",
+            "content": "## Mangakakalot, Manganato, Mangabat\n-# `Last edited: 02/13/2026`\n### 1. **`Failed to bypass Cloudflare`**?\n* Pass Cloudflare verification in WebView, use the command **`!ua`** in <#1193504423964586025> if the verification loops.\n* Or change the mirror URL in the extension's settings (your app's Browse Page > Extensions tab > Mangakakalot > Language settings) to see if that helps.\n### 2. **`All CDN attempts failed`**, **`The image could not be loaded`**, and/or downloads are stuck (ex. 16/31) / won't finish (ex. 31/31)?\n* The source frequently has missing images on their site, __wait for the source to fix their hosting site/servers__, **this is not an extension-related issue**.\n### 3. Chapter page is split into separate pages/cut off?\n* That's just how the source cuts them, __not an extension-related issue__.\n* Read in long-strip mode or migrate to a different source.\n### 4. **`HTTP 429`** error?\n* The source has changed their API rate-limit, so update, download, and read less to avoid this error.\n* Try changing the mirror URL in the extension's settings to see if it helps."
+        },
+        {
+            "id": 3,
+            "title": "Invalid repo URL error",
+            "created": "2025-11-24T09:17:00Z",
+            "updated": "2026-02-16T03:34:00Z",
+            "content": "## **`Invalid repo URL`** error\n-# `Last edited: 02/16/2026`\n1. Remove the current repo URL from your app & use the alternative repo URL instead:\n> ### * https://cdn.jsdelivr.net/gh/keiyoushi/extensions@repo/index.min.json\n  * (**`URL do repositório inválido`**) This is especially for users in **South America** since [GitHub randomly blocks South America (**again**)](<https://github.com/orgs/community/discussions/177971>) from accessing raw GitHub URLs.\n2. Otherwise, switch networks or use a VPN."
+        }
+    ]
+}
